@@ -1,0 +1,135 @@
+.clients {
+  background-color: #ffffff;
+}
+
+.clients__wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background-color: #2b2d5c;
+}
+
+.clients h2 {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+
+  font-family: "Trirong", serif;
+  color: #ffffff;
+}
+
+.clients__list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+}
+
+.clients__list li {
+  margin-bottom: 15px;
+}
+
+.clients__list a:hover img,
+.clients__list a:focus img {
+  opacity: 0.7;
+}
+
+.clients__list a:active img {
+  opacity: 0.5;
+}
+
+@media (min-width: @tablet-width) {
+  .clients {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .clients__wrapper {
+    padding-bottom: 35px;
+
+    background-image: url("../img/business-man-and-woman-handshake-in-work-office-picjumbo-com@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .clients__list {
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: row;
+  }
+
+  .clients__list li {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .clients__list li:nth-of-type(1) {
+    margin-right: 4.3%;
+  }
+
+  .clients__list li:nth-of-type(2) {
+    margin-right: 5.5%;
+  }
+
+  .clients__list li:nth-of-type(3) {
+    margin-right: 4.7%;
+  }
+
+  .clients__list li:nth-of-type(4) {
+    margin-right: 5.9%;
+  }
+
+  .clients__list li:nth-of-type(5) {
+    margin-top: -25px;
+    margin-right: 8.5%;
+  }
+
+  .clients__list a {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .clients__list img {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .clients {
+    padding-top: 97px;
+    padding-bottom: 100px;
+  }
+
+  .clients__wrapper {
+    padding-top: 70px;
+    padding-bottom: 85px;
+  }
+
+  .clients h2 {
+    margin-bottom: 40px;
+
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .clients__list {
+    margin: 0;
+    padding-left: 13.4%;
+    padding-right: 13.4%;
+
+    justify-content: flex-start;
+  }
+}

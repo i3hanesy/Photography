@@ -1,0 +1,318 @@
+.about__wrapper {
+  padding-top: 35px;
+}
+
+.about__background {
+  background-color: #f7f7fc;
+}
+
+.about__image {
+  text-align: center;
+}
+
+.about__image img {
+  width: 320px;
+}
+
+.about__information {
+  padding-top: 35px;
+  padding-right: 5%;
+  padding-bottom: 30px;
+  padding-left: 5%;
+
+  text-align: center;
+}
+
+.about__description h2,
+.about__my-work h2 {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Trirong", serif;
+
+  color: #2b2d5c;
+}
+
+.about__my-work h2 {
+  margin-bottom: 15px;
+}
+
+.about__my-work {
+  margin-bottom: 15px;
+}
+
+.about__my-work ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about__my-work li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__my-work h3 {
+  font-size: 30px;
+}
+
+.about__information .button {
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 37px;
+
+  background-color: #2b2d5c;
+  color: #fefeff;
+
+  text-transform: uppercase;
+}
+
+@media (min-width: @tablet-width) {
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about__image {
+    width: 100%;
+  }
+
+  .about__image--wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 514px;
+
+    &::before {
+      content: "";
+      position: absolute;
+
+      top: 376px;
+      left: 0;
+
+      width: 505px;
+      height: 89px;
+
+      border: 1px solid rgba(255, 204, 0, 0.3);
+      border-left: none;
+      border-right: none;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+
+      bottom: 58px;
+      left: 209px;
+
+      width: 89px;
+      height: 504px;
+
+      border: 1px solid rgba(255, 204, 0, 0.3);
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+
+  .about__filters {
+    position: absolute;
+
+
+    width: 161px;
+    height: 157px;
+
+    top: 0;
+    right: 0;
+  }
+
+  .about__filter--1 {
+    position: absolute;
+
+    width: 80px;
+    height: 54px;
+
+    left: 0;
+    top: 0;
+
+    background-color: rgb(44, 46, 93);
+    opacity: 0.859;
+  }
+
+  .about__filter--2 {
+    position: absolute;
+
+    right: 0;
+    top: 0;
+
+    width: 80px;
+    height: 77px;
+
+    background-color: rgb(255, 255, 255);
+    opacity: 0.902;
+  }
+
+  .about__filter--3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 70px;
+    height: 80px;
+
+    background-color: rgba(77, 64, 124, 0.871);
+    opacity: 0.729;
+  }
+
+  .about__image img {
+    width: 514px;
+  }
+
+  .about__information {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 35px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+
+    text-align: left;
+  }
+
+  .about__description {
+    padding-right: 3%;
+    padding-left: 3%;
+    width: 30%;
+  }
+
+  .about__my-work {
+    margin-bottom: 55px;
+
+    width: 70%;
+  }
+
+  .about__description h2,
+  .about__my-work h2 {
+    margin: 0;
+  }
+
+  .about__my-work ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .about__my-work li {
+    display: block;
+  }
+
+  .about__information .button {
+    margin-bottom: -20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .about {
+    padding-top: 0;
+    // padding-bottom: 50px;
+    background-color: #ffffff;
+  }
+
+  .about__wrapper {
+    padding-top: 100px;
+    padding-right: 11.2%;
+    display: flex;
+  }
+
+  .about__image {
+    margin-right: 9.8%;
+    margin-bottom: -50px;
+    width: 515px;
+
+    text-align: left;
+  }
+
+  .about__image img {
+    min-width: 514px;
+  }
+
+  .about__information {
+    display: block;
+    padding: 0;
+
+    padding-top: 43px;
+    padding-bottom: 50px;
+    width: 53.2%;
+  }
+
+  .about__description {
+    padding: 0;
+    padding-bottom: 23px;
+    width: auto;
+  }
+
+  .about__description h2 {
+    margin-bottom: 7px;
+
+    font-size: 40px;
+    line-height: 76px;
+    font-weight: 300;
+  }
+
+  .about__description p {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+
+  .about__my-work {
+    width: auto;
+  }
+
+  .about__my-work h2 {
+    margin-bottom: 18px;
+
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 300;
+  }
+
+  .about__my-work h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+  }
+
+  .about__my-work ul {
+    justify-content: space-between;
+  }
+
+  .about__information .button {
+    padding-top: 17px;
+    padding-bottom: 12px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 14px;
+    line-height: 37px;
+  }
+}

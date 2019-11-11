@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div style="display: none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
+    <header class="header" id="header">
+      <div class="header__wrapper container">
+        <div class="header__navigation">
+          <div class="header__logo">
+            <a href="index.html">
+              <picture>
+                <source type="image/webp" srcset="img/logo-icon.webp, img/logo-icon@2x.webp 2x">
+                <img src="img/logo-icon.png" srcset="img/logo-icon@2x.png 2x" width="26" height="26" alt="Logo">
+              </picture>
+              <span>Photography</span>
+            </a>
+          </div>
+          <div class="header__nav nav">
+            <ul class="nav__list" id="menu">
+              <li class="nav__item nav__item--active"><a>Home</a></li>
+              <li class="nav__item"><a href="#about">About</a></li>
+              <li class="nav__item"><a href="#clients">Clients</a></li>
+              <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+              <li class="nav__item"><a href="#blog">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__information">
+          <div class="header__description">
+            <p>Hello, I'm<br> Dakota Jhonson</p>
+            <p>I’m an Art Director & Photographer based in the San Francisco.</p>
+            <a class="button" href="#">See My Works</a>
+          </div>
+        </div>
+        <div class="header__button-down" id="button-down">
+          <a href="#about">Down</a>
+        </div>
+        <div class="header__social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">We are at facebook</span>
+                <svg class="social__icon social__icon--facebook" width="14" height="25">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">We are at twitter</span>
+                <svg class="social__icon social__icon--twitter" width="22" height="19">
+                  <use xlink:href="#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">We are at instagram</span>
+                <svg class="social__icon social__icon--instagram" width="22" height="21">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">We are at flickr</span>
+                <svg class="social__icon social__icon--flickr" width="21" height="21">
+                  <use xlink:href="#icon-flickr"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__filters">
+          <i class="header__filter header__filter--1"></i>
+          <i class="header__filter header__filter--2"></i>
+          <i class="header__filter header__filter--3"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">My Resume</h1>
+      <section class="about" id="about">
+        <div class="about__background">
+        <div class="about__wrapper container">
+          <div class="about__image">
+            <div class="about__image--wrapper">
+            <div class="about__filters">
+              <i class="about__filter about__filter--1"></i>
+              <i class="about__filter about__filter--2"></i>
+              <i class="about__filter about__filter--3"></i>
+            </div>
+            <picture>
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/sergey-zolkin-1045@1x.webp, img/sergey-zolkin-1045@2x.webp 2x">
+              <source type="image/webp" srcset="img/sergey-zolkin-1045-mobile@1x.webp, img/sergey-zolkin-1045-mobile@2x.webp 2x">
+              <source media="(min-width: 768px)" srcset="img/sergey-zolkin-1045@1x.jpg, img/sergey-zolkin-1045@2x.jpg 2x">
+              <img src="img/sergey-zolkin-1045-mobile@1x.jpg" srcset="img/sergey-zolkin-1045-mobile@2x.jpg 2x" width="320" height="454" alt="sergey-zolkin-1045">
+            </picture>
+            </div>
+          </div>
+          <div class="about__information">
+            <div class="about__description">
+              <h2>About MySelf</h2>
+              <p>Hey, thanks for stopping by. My name’s Dakota Jhonson junior and I’m a briliant Art Director and pro
+                Photographer based in the San Francisco where I make cool things for agencies and brands around globe. Mentas is loaded with useful features, each one with its own meaningful purpose. We listen to our users and integrate their feature requests on a regular basis. If you like my work then please do not  hesitate to reach out.
+              </p>
+            </div>
+            <div class="about__my-work">
+              <h2>What I Do?</h2>
+              <ul>
+                <li>
+                  <h3>Fashion</h3>
+                  <picture>
+                    <source type="image/webp" srcset="img/pete-bellis-189599@1x.webp, img/pete-bellis-189599@2x.webp 2x">
+                    <img src="img/pete-bellis-189599@1x.jpg" srcset="img/sergey-zolkin-1045@2x.jpg 2x" width="130" height="120" alt="Logo">
+                  </picture>
+                </li>
+                <li>
+                  <h3>Portraits</h3>
+                  <picture>
+                    <source type="image/webp" srcset="img/henri-meilhac-134082@1x.webp, img/henri-meilhac-134082@2x.webp 2x">
+                    <img src="img/henri-meilhac-134082@1x.jpg" srcset="img/henri-meilhac-134082@2x.jpg 2x" width="130" height="120" alt="Logo">
+                  </picture>
+                </li>
+                <li>
+                  <h3>Lifestyle</h3>
+                  <picture>
+                    <source type="image/webp" srcset="img/pete-bellis-225635@1x.webp, img/pete-bellis-225635@2x.webp 2x">
+                    <img src="img/pete-bellis-225635@1x.jpg" srcset="img/pete-bellis-225635@2x.jpg 2x" width="130" height="120" alt="Logo">
+                  </picture>
+                </li>
+              </ul>
+            </div>
+            <a class="button" href="#">View My Flickr Profile</a>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="clients" id="clients">
+        <div class="clients__background">
+          <div class="clients__wrapper container">
+          <h2>Happy Clients</h2>
+          <ul class="clients__list">
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/SalonCentric_logo@1x.webp, img/SalonCentric_logo@2x.webp 2x">
+                  <img src="img/SalonCentric_logo@1x.png" srcset="img/SalonCentric_logo@2x.png 2x" width="163" height="35" alt="Logo-SalunCentric">
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/luscious_logo@1x.webp, img/luscious_logo@2x.webp 2x">
+                  <img src="img/luscious_logo@1x.png" srcset="img/luscious_logo@2x.png 2x" width="152" height="71" alt="Logo-Luscious">
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/brillbird-transparent-logo@1x.webp, img/brillbird-transparent-logo@2x.webp 2x">
+                  <img src="img/brillbird-transparent-logo@1x.png" srcset="img/brillbird-transparent-logo@2x.png 2x" width="130" height="23" alt="Logo-brillbird">
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/logo_loxa@1x.webp, img/logo_loxa@2x.webp 2x">
+                  <img src="img/logo_loxa@1x.png" srcset="img/logo_loxa@2x.png 2x" width="175" height="34" alt="Logo-loxa">
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/minkys_logo@1x.webp, img/minkys_logo@2x.webp 2x">
+                  <img src="img/minkys_logo@1x.png" srcset="img/minkys_logo@2x.png 2x" width="104" height="61" alt="Logo-minkys">
+                </picture>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <picture>
+                  <source type="image/webp" srcset="img/babaria_logo@1x.webp, img/babaria_logo@2x.webp 2x">
+                  <img src="img/babaria_logo@1x.png" srcset="img/babaria_logo@2x.png 2x" width="110" height="32" alt="Logo-Babaria">
+                </picture>
+              </a>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__background">
+          <div class="portfolio__wrapper container">
+          <div class="portfolio__description">
+            <h2>Portfolio</h2>
+              <p>The point of using Lorem Ipsum is that it has a non  more-or-less  dik sonormal distri bution of letters, as cliper opposed. a closer look to our fully furnished and beautiful demos, which can be use easily On this find website you can find some pictures I've   taken during my travel. a clo look to our fully furnished and so beautful demos, which can be use.
+              </p>
+              <a href="#">Read More...</a>
+          </div>
+          <div class="portfolio__images">
+            <div class="portfolio__images--wrapper">
+              <ul class="portfolio__images-list">
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/alexander-andrews-247193@1x.webp, img/alexander-andrews-247193@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/alexander-andrews-247193@1x.webp, img/alexander-andrews-247193@1x.webp 2x">
+                    <source type="image/webp" srcset="img/alexander-andrews-247193-mobile@1x.webp, img/alexander-andrews-247193-mobile@1x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/alexander-andrews-247193@1x.jpg, img/alexander-andrews-247193@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/alexander-andrews-247193@1x.jpg, img/alexander-andrews-247193@2x.jpg 2x">
+                    <img src="img/alexander-andrews-247193-mobile@1x.jpg" srcset="img/alexander-andrews-247193-mobile@2x.jpg 2x" width="320" height="401">
+                  </picture>
+                  <div class="portfolio__social">
+                    <div class="portfolio__social-share">
+                      <a class="social__link" href="#">
+                        <span class="visually-hidden">We are at facebook</span>
+                        <svg class="social__icon social__icon--share" width="14" height="25">
+                          <use xlink:href="#icon-share"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <ul class="social__list">
+                      <li class="social__item">
+                        <a class="social__link" href="#">
+                          <span class="visually-hidden">We are at facebook</span>
+                          <svg class="social__icon social__icon--facebook" width="14" height="25">
+                            <use xlink:href="#icon-facebook"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="social__item">
+                        <a class="social__link" href="#">
+                          <span class="visually-hidden">We are at twitter</span>
+                          <svg class="social__icon social__icon--twitter" width="22" height="19">
+                            <use xlink:href="#icon-twitter"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="social__item">
+                        <a class="social__link" href="#">
+                          <span class="visually-hidden">We are at instagram</span>
+                          <svg class="social__icon social__icon--instagram" width="22" height="21">
+                            <use xlink:href="#icon-instagram"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/anne-edgar-119383@1x.webp, img/anne-edgar-119383@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/anne-edgar-119383@1x.webp, img/anne-edgar-119383@2x.webp 2x">
+                    <source type="image/webp" srcset="img/anne-edgar-119383-mobile@1x.webp, img/anne-edgar-119383-mobile@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/anne-edgar-119383@1x.jpg, img/anne-edgar-119383@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/anne-edgar-119383@1x.jpg, img/anne-edgar-119383@2x.jpg 2x">
+                    <img src="img/anne-edgar-119383-mobile@1x.jpg" srcset="img/anne-edgar-119383-mobile@2x.jpg 2x" width="320" height="218">
+                  </picture>
+                </li>
+              </ul>
+              <ul class="portfolio__images-list">
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/content-14@1x.webp, img/content-14@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/content-14@1x.webp, img/content-14@2x.webp 2x">
+                    <source type="image/webp" srcset="img/content-14@1x.webp, img/content-14@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/content-14@1x.jpg, img/content-14@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/content-14@1x.jpg, img/content-14@2x.jpg 2x">
+                    <img src="img/content-14@1x.jpg" srcset="img/content-14@2x.jpg 2x" width="471" height="233">
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/larm-rmah-46823@1x.webp, img/larm-rmah-46823@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/larm-rmah-46823@1x.webp, img/larm-rmah-46823@2x.webp 2x">
+                    <source type="image/webp" srcset="img/larm-rmah-46823@1x.webp, img/larm-rmah-46823@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/larm-rmah-46823@1x.jpg, img/larm-rmah-46823@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/larm-rmah-46823@1x.jpg, img/larm-rmah-46823@2x.jpg 2x">
+                    <img src="img/larm-rmah-46823@1x.jpg" srcset="img/larm-rmah-46823@2x.jpg 2x" width="165" height="233">
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/clem-onojeghuo-101919@1x.webp, img/clem-onojeghuo-101919@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/clem-onojeghuo-101919@1x.webp, img/clem-onojeghuo-101919@2x.webp 2x">
+                    <source type="image/webp" srcset="img/clem-onojeghuo-101919@1x.webp, img/clem-onojeghuo-101919@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/clem-onojeghuo-101919@1x.jpg, img/clem-onojeghuo-101919@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/clem-onojeghuo-101919@1x.jpg, img/clem-onojeghuo-101919@2x.jpg 2x">
+                    <img src="img/clem-onojeghuo-101919@1x.jpg" srcset="img/clem-onojeghuo-101919@2x.jpg 2x" width="301" height="233">
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/sl-home2@1x.webp, img/sl-home2@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/sl-home2@1x.webp, img/sl-home2@2x.webp 2x">
+                    <source type="image/webp" srcset="img/sl-home2@1x.webp, img/sl-home2@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/sl-home2@1x.jpg, img/sl-home2@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/sl-home2@1x.jpg, img/sl-home2@2x.jpg 2x">
+                    <img src="img/sl-home2@1x.jpg" srcset="img/sl-home2@2x.jpg 2x" width="331" height="233">
+                  </picture>
+                </li>
+                <li>
+                  <picture>
+                    <source type="image/webp" media="(min-width: 1400px)" srcset="img/zara-walker-56626@1x.webp, img/zara-walker-56626@2x.webp 2x">
+                    <source type="image/webp" media="(min-width: 768px)" srcset="img/zara-walker-56626@1x.webp, img/zara-walker-56626@2x.webp 2x">
+                    <source type="image/webp" srcset="img/zara-walker-56626@1x.webp, img/zara-walker-56626@2x.webp 2x">
+                    <source media="(min-width: 1400px)" srcset="img/zara-walker-56626@1x.jpg, img/zara-walker-56626@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="img/zara-walker-56626@1x.jpg, img/zara-walker-56626@2x.jpg 2x">
+                    <img src="img/zara-walker-56626@1x.jpg" srcset="img/zara-walker-56626@2x.jpg 2x" width="666" height="221">
+                  </picture>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        <a class="button" href="#">See More</a>
+      </section>
+      <section class="blog" id="blog">
+        <div class="blog__background">
+          <div class="blog__wrapper container">
+
+            <div class="blog__item-wrapper">
+              <div class="blog__description">
+                <h2>Blog</h2>
+                <p>The point of using Lorem Ipsum is that it has a non  more-or-less  normal distri bution of letters, as cliper opposed. a closer look to our fully,
+                </p>
+              </div>
+              <div class="blog__item">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1400px)" srcset="img/alejandro-lopez-1284@1x.webp, img/alejandro-lopez-1284@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/alejandro-lopez-1284-tablet@1x.webp, img/alejandro-lopez-1284-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/alejandro-lopez-1284-mobile@1x.webp, img/alejandro-lopez-1284-mobile@2x.webp 2x">
+                  <source media="(min-width: 1400px)" srcset="img/alejandro-lopez-1284@1x.jpg, img/alejandro-lopez-1284@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/alejandro-lopez-1284-tablet@1x.jpg, img/alejandro-lopez-1284-tablet@2x.jpg 2x">
+                  <img src="img/alejandro-lopez-1284-mobile@1x.jpg" srcset="img/alejandro-lopez-1284@-mobile2x.jpg 2x" width="320" height="188" alt="Alejandro Lopez">
+                </picture>
+                <div class="blog__item--discription">
+                  <h3>Design is the method of putting form and content together</h3>
+                  <div class="blog__item-date"><span>Life style</span><span> - July 3, 2017</span></div>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.</p>
+                  <a href=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item-wrapper blog__item-wrapper--active">
+              <div class="blog__description">
+                <h2>Blog</h2>
+                <p>The point of using Lorem Ipsum is that it has a non  more-or-less  normal distri bution of letters, as cliper opposed. a closer look to our fully,
+                </p>
+              </div>
+              <div class="blog__item">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1400px)" srcset="img/pete-bellis-278587@1x.webp, img/pete-bellis-278587@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/pete-bellis-278587-tablet@1x.webp, img/pete-bellis-278587-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/pete-bellis-278587-mobile@1x.webp, img/pete-bellis-278587-mobile@2x.webp 2x">
+                  <source media="(min-width: 1400px)" srcset="img/pete-bellis-278587@1x.jpg, img/pete-bellis-278587@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/pete-bellis-278587-tablet@1x.jpg, img/pete-bellis-278587-tablet@2x.jpg 2x">
+                  <img src="img/pete-bellis-278587-mobile@1x.jpg" srcset="img/pete-bellis-278587-mobile@2x.jpg 2x" width="320" height="188" alt="Pete Bellis">
+                </picture>
+                <div class="blog__item--discription">
+                  <h3>Design is the method of putting form and content together</h3>
+                  <div class="blog__item-date"><span>Life style</span><span> - July 3, 2017</span></div>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.</p>
+                  <a href=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item-wrapper">
+              <div class="blog__description">
+                <h2>Blog</h2>
+                <p>The point of using Lorem Ipsum is that it has a non  more-or-less  normal distri bution of letters, as cliper opposed. a closer look to our fully,
+                </p>
+              </div>
+              <div class="blog__item">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1400px)" srcset="img/scott-webb-16964@1x.webp, img/scott-webb-16964@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="img/scott-webb-16964-tablet@1x.webp, img/scott-webb-16964-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="img/scott-webb-16964-mobile@1x.webp, img/scott-webb-16964-mobile@2x.webp 2x">
+                  <source media="(min-width: 1400px)" srcset="img/scott-webb-16964@1x.jpg, img/scott-webb-16964@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/scott-webb-16964-tablet@1x.jpg, img/scott-webb-16964-tablet@2x.jpg 2x">
+                  <img src="img/scott-webb-16964-mobile@1x.jpg" srcset="img/scott-webb-16964-mobile@2x.jpg 2x" width="320" height="188" alt="Scott Webb">
+                </picture>
+                <div class="blog__item--discription">
+                  <h3>Design is the method of putting form and content together</h3>
+                  <div class="blog__item-date"><span>Life style</span><span> - July 3, 2017</span></div>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit lao hoksi voluptatem lios mukatu accusantium doloremq doisa nojilaudan tium, totam rem aperiam, uni eaque ipsa quae ab cok illo inven tore siva.</p>
+                  <a href=""><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="form">
+          <div class="form__wrapper">
+            <h2>Let's work?</h2>
+            <form class="form__upload" method="post" enctype="multipart/form-data" autocomplete="off">
+              <ul class="form-list">
+                <li>
+                  <input type="text" id="user-name" name="user-name" placeholder="*Your name" required>
+                </li>
+
+                <li>
+                  <input type="email" id="e-mail" name="user-email" placeholder="*Your Email" required>
+                </li>
+
+                <li>
+                  <textarea name="user-text" placeholder="Your Massages"></textarea>
+                </li>
+
+                <li>
+                  <button class="button" type="submit">Send message</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="button-up__wrapper fixed">
+        <a class="button-up" href="">Up</a>
+      </div>
+      <div class="footer__wrapper container">
+        <div class="footer__contacts-wrapper">
+          <div class="footer__logo">
+            <a href="index.html">
+              <picture>
+                <source type="image/webp" srcset="img/logo-icon.webp, img/logo-icon@2x.webp 2x">
+                <img src="img/logo-icon.png" srcset="img/logo-icon@2x.png 2x" width="26" height="26" alt="Logo">
+              </picture>
+              <span>Photography</span>
+            </a>
+          </div>
+          <div class="footer__contacts">
+            <h2>Contact</h2>
+            <p>237 Church St, San Francisco,<br>
+            CA 94114, USA</p>
+            <a href="mailto:nazmulhasanjingar@gmail.com">nazmulhasanjingar@gmail.com</a>
+          </div>
+          <div class="footer__social">
+            <p>Follow me on:</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <span class="visually-hidden">We are at facebook</span>
+                  <svg class="footer__social-icon footer__social-icon--facebook" width="10" height="20">
+                    <use xlink:href="#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <span class="visually-hidden">We are at twitter</span>
+                  <svg class="footer__social-icon footer__social-icon--twitter" width="19" height="16">
+                    <use xlink:href="#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <span class="visually-hidden">We are at instagram</span>
+                  <svg class="footer__social-icon footer__social-icon--instagram" width="19" height="18">
+                    <use xlink:href="#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#">
+                  <span class="visually-hidden">We are at flickr</span>
+                  <svg class="footer__social-icon footer__social-icon--flickr" width="18" height="18">
+                    <use xlink:href="#icon-flickr"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__blog">
+          <h3>Latest Blog Posts</h3>
+          <div class="footer__blog-item">
+            <div class="footer__blog-image">
+              <picture>
+                <source type="image/webp" srcset="img/audrey-jackson-260657@1x.webp, img/audrey-jackson-260657@2x.webp 2x">
+                <img src="img/audrey-jackson-260657@1x.jpg" srcset="img/audrey-jackson-260657@2x.jpg 2x" width="70" height="60" alt="audrey-jackson">
+              </picture>
+            </div>
+            <div class="footer__blog-descriptions">
+              <p>Design is the method of putting form and content together</p>
+              <div><span>Life style</span><span> - July 3, 2017</span></div>
+            </div>
+          </div>
+          <div class="footer__blog-item">
+            <div class="footer__blog-image">
+              <picture>
+                <source type="image/webp" srcset="img/clem-onojeghuo-151794@1x.webp, img/clem-onojeghuo-151794@2x.webp 2x">
+                <img src="img/clem-onojeghuo-151794@1x.jpg" srcset="img/clem-onojeghuo-151794@2x.jpg 2x" width="70" height="60" alt="clem-onojeghuo">
+              </picture>
+            </div>
+            <div class="footer__blog-descriptions">
+              <p>Design is the method of putting form and content together</p>
+              <div><span>Life style</span><span> - July 3, 2017</span></div>
+            </div>
+          </div>
+          <a href="">More...</a>
+        </div>
+        <div class="footer__links">
+          <h3>Quick Link</h3>
+          <ul id="footer__links">
+            <li class="footer__links-item"><a class="footer__links-link" href="#header">Home</a></li>
+            <li class="footer__links-item"><a class="footer__links-link" href="#about">About</a></li>
+            <li class="footer__links-item"><a class="footer__links-link" href="#clients">Clients</a></li>
+            <li class="footer__links-item"><a class="footer__links-link" href="#portfolio">Portfolio</a></li>
+            <li class="footer__links-item"><a class="footer__links-link" href="#blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__instagram-update instagram-update">
+          <h3>Instagram Update</h3>
+          <div class="instagram-update__wrapper">
+            <ul class="instagram-update__list">
+              <li>
+                <picture>
+                  <source type="image/webp" srcset="img/curtis-macnewton-12711@1x.webp, img/curtis-macnewton-12711@2x.webp 2x">
+                  <img src="img/curtis-macnewton-12711@1x.jpg" srcset="img/curtis-macnewton-12711@2x.jpg" width="100" height="97" alt="curtis-macnewton">
+                </picture>
+              </li>
+              <li>
+                <div>
+                  <picture>
+                    <source type="image/webp" srcset="img/hisu-lee-38286@1x.webp, img/hisu-lee-38286@2x.webp 2x">
+                    <img src="img/hisu-lee-38286@1x.jpg" srcset="img/hisu-lee-38286@2x.jpg 2x" width="90" height="42" alt="hisu-lee">
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source type="image/webp" srcset="img/jennifer-pallian-173716@1x.webp, img/jennifer-pallian-173716@2x.webp 2x">
+                    <img src="img/jennifer-pallian-173716@1x.jpg" srcset="img/jennifer-pallian-173716@2x.jpg 2x" width="90" height="45" alt="jennifer-pallian">
+                  </picture>
+                </div>
+              </li>
+              <li>
+                <picture>
+                  <source type="image/webp" srcset="img/arno-smit-83025@1x.webp, img/arno-smit-83025@2x.webp 2x">
+                  <img src="img/arno-smit-83025@1x.jpg" srcset="arno-smit-83025@2x.jpg 2x" width="50" height="61" alt="arno-smit">
+                </picture>
+              </li>
+              <li>
+                <picture>
+                  <source type="image/webp" srcset="img/freestocks-org-132631@1x.webp, img/freestocks-org-132631@2x.webp 2x">
+                  <img src="img/freestocks-org-132631@1x.jpg" srcset="img/freestocks-org-132631@2x.jpg 2x" width="54" height="61" alt="freestocks-org">
+                </picture>
+              </li>
+              <li>
+                <picture>
+                  <source type="image/webp" srcset="img/brooke-lark-96398@1x.webp, img/brooke-lark-96398@2x.webp 2x">
+                  <img src="img/brooke-lark-96398@1x.jpg" srcset="img/brooke-lark-96398@2x.jpg 2x" width="74" height="61" alt="brooke-lark">
+                </picture>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright"><span>All Rights @ 2017 By Nazmul Hasan Jingar</span></div>
+
+    </footer>
+    <script src="js/links.js" type="text/javascript"></script>
+    <script src="js/picturefill.min.js" async=""></script>
+    <script src="js/validation.js"></script>
+    <script src="js/viewportChecker.js"></script>
+    <script src="js/button-up.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,67 @@
+.footer .fixed {
+  position: fixed;
+
+  right: 19.3%;
+  bottom: 32px;
+
+  display: none;
+}
+
+.footer .absolute {
+  position: absolute;
+  right: 19.3%;
+  top: -58px;
+}
+
+.button-up {
+  position: relative;
+  display: block;
+  font-size: 0;
+
+  width: 70px;
+  height: 58px;
+
+  background-color: #cbcbd7;
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    top: 24px;
+    left: 30px;
+
+    width: 10px;
+    height: 10px;
+
+    border-right: 2px solid #2c2e5d;
+    border-top: 2px solid #2c2e5d;
+
+    transform: rotate(-45deg);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    top: 30px;
+    left: 30px;
+
+    width: 10px;
+    height: 10px;
+
+    border-right: 2px solid #2c2e5d;
+    border-top: 2px solid #2c2e5d;
+
+    transform: rotate(-45deg);
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
