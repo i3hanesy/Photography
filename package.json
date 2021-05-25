@@ -50,7 +50,7 @@
     "node": "8.15"
   },
   "dependencies": {
-    "browserslist": "^4.7.0",
+    "browserslist": "^4.16.5",
     "del": "^5.1.0"
   }
 }
